@@ -20,6 +20,10 @@
   <remote  name="merlin"
            fetch="https://github.com/DarkLoki-KL"
            revision="twelve"/>
+  
+  <remote  name="merlin1"
+           fetch="https://github.com/DarkLoki-KL"
+           revision="lineage-19.0"/>
 
   <default revision="refs/heads/lineage-19.0"
            remote="github"
@@ -1057,7 +1061,7 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
   <project path="frameworks/base" name="android_frameworks_base" remote="merlinx"  />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="merlin" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="merlin1" />
   
   <include name="snippets/lineage.xml" />
   <include name="snippets/merlinx.xml" />
