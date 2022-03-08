@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-12.0.0_r29" />
+           revision="refs/tags/android-12.0.0_r32" />
   
   <remote  name="merlinx"
            fetch="https://github.com/LokiAsDev1"
