@@ -28,7 +28,7 @@
   <default revision="refs/heads/lineage-19.0"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="7" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r29" />
   <contactinfo bugurl="go/repo-bug" />
