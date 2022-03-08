@@ -1060,8 +1060,12 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" remote="aosp" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
-  <project path="frameworks/base" name="android_frameworks_base" remote="merlinx"  />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="merlin1" />
+  <!-- initial merge of face unlock -->
+  <!-- <project path="frameworks/base" name="android_frameworks_base" remote="merlinx"  /> -->
+  <!-- <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="merlin1" /> -->
+  
+  <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
   
   <include name="snippets/lineage.xml" />
   <include name="snippets/merlinx.xml" />
