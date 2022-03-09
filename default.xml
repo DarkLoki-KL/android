@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-12.1.0_r1" />
+           revision="refs/tags/android-12.0.0_r32" />
   
   <remote  name="merlinx"
            fetch="https://github.com/LokiAsDev1"
@@ -34,7 +34,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r1" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r32" />
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
@@ -683,7 +683,7 @@
   <project path="frameworks/opt/localepicker" name="platform/frameworks/opt/localepicker" remote="aosp" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="aosp" />
   
-  <project path="frameworks/opt/net/ims" name="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="merlinxv" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt/_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="merlinxv" />
   <!-- <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   
   
