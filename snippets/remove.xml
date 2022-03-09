@@ -1,3 +1,0 @@
-<!-- Frameworks -->
-<remove-project name="frameworks/opt/telephony" />
-<remove-project name="frameworks/opt/net/ims" />
