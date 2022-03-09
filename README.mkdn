@@ -10,7 +10,7 @@ To get started with Android/LineageOS, you'll need to get familiar with [Source 
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u https://github.com/DarkLoki-KL/android.git -b lineage-19.0
+repo init -u https://github.com/DarkLoki-KL/android.git -b lineage-19.0-12l
 ```
 Then to sync up:
 ```
