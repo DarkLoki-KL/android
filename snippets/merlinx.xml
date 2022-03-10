@@ -13,6 +13,10 @@
            fetch=".."
            review="review.lineageos.org" />
   
+  <remote  name="githubs"
+           fetch="https://github.com/" />
+  
+  
     <remote  name="merlinx"
            fetch="https://github.com/LokiAsDev1"
            revision="twelve" />
@@ -32,7 +36,7 @@
   <project path="vendor/xiaomi/mt6768-ims" name="android_vendor_xiaomi_mt6768-ims" remote="merlin"/>
   
  <!-- Extras -->
-  <project path="device/mediatek/sepolicy_vndr" name="StatiXOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="sc"/>
+  <project path="device/mediatek/sepolicy_vndr" name="StatiXOS/android_device_mediatek_sepolicy_vndr" remote="githubs" revision="sc"/>
 
  <!-- VoLTE fix -->
   <!-- <project path="frameworks/opt/net/ims" name="frameworks_opt/_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="merlinx" /> -->
