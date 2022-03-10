@@ -4,12 +4,9 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  
   <default revision="refs/tags/android-12.1.0_r1"
            remote="aosp"
-           sync-j="8"
-           sync-c="true"
-           sync-f="true" />
+           sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r1" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1105,9 +1102,10 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
   <include name="snippets/lineage.xml" />
   <include name="snippets/merlinx.xml" />
   
-  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
-
 </manifest>
+
