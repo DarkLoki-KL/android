@@ -7,7 +7,7 @@
           revision="refs/heads/lineage-19.0" />
 
 
-  <remote  name="aosp"
+  <remote  name="aosps"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-12.1.0_r1" />  
@@ -29,7 +29,7 @@
   <!--<project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />-->
   <project path="external/nano" name="LineageOS/android_external_nano" remote="lineage" />
   
-  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosps" revision="refs/tags/android-11.0.0_r46" />
   <!--<project path="external/unrar" name="LineageOS/android_external_unrar" />-->
   <project path="external/vim" name="LineageOS/android_external_vim" remote="lineage" />
 
