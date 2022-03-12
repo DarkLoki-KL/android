@@ -205,14 +205,12 @@
   
   <project path="external/mksh" name="xd_external_mksh" remote="xd" />
   <project path="external/ntfs-3g" name="xd_external_ntfs-3g" remote="xd" />
-  <project path="external/json-c" name="xd_external_json-c" remote="xd" />
-  <project path="external/selinux" name="xd_external_selinux" remote="xd" />
-  <project path="external/tinycompress" name="xd_external_tinycompress" remote="xd" />
+  
   <!--project path="external/themelib" name="xd_external_themelib" remote="xd" revision="twelve" /-->
   <!--project path="external/colorkt" name="xd_external_colorkt" remote="xd" revision="twelve" /-->
   <project path="external/sqlite" name="xd_external_sqlite" remote="xd" />
   <project path="external/tinyxml" name="xd_external_tinyxml" revision="twelve" remote="xd" />
-  <!--project path="external/faceunlock" name="xd_external_faceunlock" remote="xd-gitlab" /-->
+  
   
   
   
