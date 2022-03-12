@@ -181,39 +181,7 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" remote="lineage" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" remote="lineage" />
-  
-  
-  
 
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
-  
-  
-  
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="PixelExperience/prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="twelve" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="PixelExperience/prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="github" revision="twelve" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="PixelExperience/prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" remote="github" revision="twelve" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="PixelExperience/prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="twelve" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="PixelExperience/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="github" revision="twelve" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="PixelExperience/prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="github" revision="twelve" clone-depth="1" />
-  
-  
-   
-
-  <!-- External -->
-  <project path="external/e2fsprogs" name="xd_external_e2fsprogs" remote="xd" />
-  <project path="external/gptfdisk" name="xd_external_gptfdisk" remote="xd" />
-  
-  <project path="external/mksh" name="xd_external_mksh" remote="xd" />
-  <project path="external/ntfs-3g" name="xd_external_ntfs-3g" remote="xd" />
-  
-  <!--project path="external/themelib" name="xd_external_themelib" remote="xd" revision="twelve" /-->
-  <!--project path="external/colorkt" name="xd_external_colorkt" remote="xd" revision="twelve" /-->
-  <project path="external/sqlite" name="xd_external_sqlite" remote="xd" />
-  
-  
-  
-  
-  
   
   
 </manifest>
