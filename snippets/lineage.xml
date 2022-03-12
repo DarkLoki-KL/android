@@ -197,12 +197,7 @@
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="PixelExperience/prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="github" revision="twelve" clone-depth="1" />
   
   
-    <!-- Device -->
-  <project path="device/xdroid/sepolicy" name="xd_device_xdroid_sepolicy" revision="twelve" remote="xd" />
-  <project path="device/qcom/sepolicy" name="xd_device_qcom_sepolicy" revision="twelve" remote="xd" />
-  <project path="device/qcom/sepolicy_vndr" name="xd_device_qcom_sepolicy_vndr" revision="twelve" remote="xd" />
-  <project path="device/qcom/sepolicy-legacy" name="xd_device_qcom_sepolicy-legacy" revision="twelve" remote="xd" />
-  <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" revision="twelve" remote="xd" />
+   
 
   <!-- External -->
   <project path="external/e2fsprogs" name="xd_external_e2fsprogs" remote="xd" />
