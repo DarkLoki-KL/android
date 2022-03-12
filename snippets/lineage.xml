@@ -179,11 +179,8 @@
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" remote="lineage" />
   
   
-  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="arrow" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="arrow" />
-  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
+  
+
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
   
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
