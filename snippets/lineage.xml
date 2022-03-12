@@ -209,7 +209,7 @@
   <!--project path="external/themelib" name="xd_external_themelib" remote="xd" revision="twelve" /-->
   <!--project path="external/colorkt" name="xd_external_colorkt" remote="xd" revision="twelve" /-->
   <project path="external/sqlite" name="xd_external_sqlite" remote="xd" />
-  <project path="external/tinyxml" name="xd_external_tinyxml" revision="twelve" remote="xd" />
+  
   
   
   
